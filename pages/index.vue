@@ -4,21 +4,15 @@
 
 <template>
   <div class="container">
-    <h1>Nuxtstrap</h1>
-  
+    <div class="jumbotron">
+      <h1>Nuxtstrap</h1>
+      <p>Here is used Nuxt and Bootstrap</p>
+    </div>
   </div>
 </template>
 
 <script>
-import {
-  tabset,
-  tabGroup,
-  tab
-} from 'vue-strap'
+  export default {
 
-export default {
-  components: {
-    tabset
   }
-}
 </script>

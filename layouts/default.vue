@@ -1,8 +1,29 @@
+<style lang="scss">
+  #default-layout {
+
+    main {
+      position: relative;
+      top: 8rem;
+    }
+
+  }
+</style>
+
 <template>
-  <div>
-    <nuxt/>
+  <div id="default-layout">
+    <navbar/>
+    <main>
+      <nuxt/>
+    </main>
   </div>
 </template>
 
-<style>
-</style>
+<script>
+  import Navbar from '~components/Navbar'
+
+  export default {
+    components: {
+      Navbar
+    }
+  }
+</script>
