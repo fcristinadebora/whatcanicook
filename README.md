@@ -1,6 +1,6 @@
 # blog
 
-> Nuxt.js project
+> Nuxt.js and Bootstrap project
 
 ## Build Setup
 
