@@ -1,4 +1,4 @@
-# blog
+# NuxtStrap JS
 
 > Nuxt.js and Bootstrap project
 
